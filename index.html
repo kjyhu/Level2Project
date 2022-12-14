@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Game</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1>Welcome to the Matching Game</h1>
+    <div><p>Click on a clown to reveal the image behind it. Each image will have an identical
+        image and whenever you found the pair they will stay revealed. Each time you click on
+        an image, your score will increase by one so you're really good if you have the lowest 
+        amount of points which is 16. Click on the reset button to reset the game. The images are 
+        randomized every time you reload the game so don't try memorizing the positions. Good luck!</p>
+    </div>
+    <div class = "grid"></div>
+    <p>Score : <span id = "score"></span></p>
+    <button onclick="reset();">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
